@@ -1,16 +1,16 @@
 <template>
 	<header class="home-header">
-		<a class="home-header-left"></a>
+		<a class="home-header-left iconfont icon-back " href="#"></a>
 		<div class="home-header-title">
 			<a title="北京" class="title-link">
-				<i class="search-pic"></i>
+				<i class="search-pic iconfont icon-search"></i>
 				<span class="search-msg">输入城市/景点/游玩主题</span>
 			</a>
 		</div>
 		<div class="home-header-right">
 			<a  title="城市选择" class="area-link">
 				<span class="city-now">北京
-					<i class="downarrow"></i>
+					<i class="downarrow"></i>
 				</span>
 			</a>
 		</div>
@@ -79,10 +79,25 @@ export default {
 	    
 	}
 	.city-now{
+		position:relative;
 		padding: 0 .22rem;
+		width:.6rem;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
 	}
 	.downarrow{
-	    font-size: .24rem;
-   		margin-left: .04rem
+		position:absolute;
+   		margin-left: .04rem;
+   		width: 0;
+	    height: 0;
+	    border-left: 0.12rem solid transparent;
+	    border-right: 0.12rem solid transparent;
+	    border-top: 0.12rem solid #fff;
+	    left:0.7rem;
+	    top:0.1rem;
+
 	}
+	
+
 </style>
