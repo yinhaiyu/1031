@@ -1,9 +1,9 @@
-// The Vue build version to load with the `import` command
-// (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
-import App from './App/App.vue'
+import App from './App/App'
 import router from './router'
 import FastClick from 'fastclick';
+import VueAwesomeSwiper from 'vue-awesome-swiper';
+Vue.use(VueAwesomeSwiper);
 FastClick.attach(document.body);
 Vue.config.productionTip = false
 
@@ -14,3 +14,4 @@ new Vue({
   template: '<App/>',
   components: { App }
 })
+  

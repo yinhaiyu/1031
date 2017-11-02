@@ -11,5 +11,7 @@ export default {
 </script>
 
 <style>
-	@import "./reset.css"
-</style>
+	@import "./reset.css";
+  @import "../icon/iconfont.css";
+  @import "../../node_modules/swiper/dist/css/swiper.css"
+</style> 
