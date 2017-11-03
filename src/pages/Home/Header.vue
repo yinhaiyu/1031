@@ -1,10 +1,7 @@
 <template>
 	<header class="home-header">
-<<<<<<< HEAD
 		<a class="home-header-left iconfont icon-back"></a>
-=======
 		<a class="home-header-left iconfont icon-back " href="#"></a>
->>>>>>> hahaha
 		<div class="home-header-title">
 			<a title="北京" class="title-link">
 				<i class="search-pic iconfont icon-search"></i>
@@ -13,7 +10,7 @@
 		</div>
 		<div class="home-header-right">
 			<a  title="城市选择" class="area-link">
-				<span class="city-now">北京
+				<span class="city-now">北京				
 					<i class="downarrow"></i>
 				</span>
 			</a>
