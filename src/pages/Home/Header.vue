@@ -96,7 +96,6 @@ export default {
 	    border-top: 0.12rem solid #fff;
 	    left:0.7rem;
 	    top:0.1rem;
-
 	}
 	
 
