@@ -19,7 +19,7 @@ import salesActivity from './components/salesActivity'
 import hotList from './components/hotList'
 import gotoList from './components/gotoList'
 import axios from 'axios'
-import {Get_DATA} from "./types.js"
+import {H_Get_DATA} from "./types.js"
 import {mapState,mapActions} from "vuex"
 export default {
   components:{
@@ -28,7 +28,7 @@ export default {
   	"index-classify-swiper":classifySwiper,
   	"index-sales-activity":salesActivity,
   	"index-hotList":hotList,
-	"index-gotoList":gotoList,
+	  "index-gotoList":gotoList,
   },
   computed:mapState({
       swiperInfo:(state) => {
@@ -40,7 +40,7 @@ export default {
   },
   methods:mapActions({
     getHomeData:(dispatch) => {
-        dispatch(Get_DATA)
+        dispatch(H_Get_DATA)
     }
   })
 }
