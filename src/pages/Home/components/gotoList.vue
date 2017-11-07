@@ -64,9 +64,9 @@
     }
     .product-imgcontainer{
         overflow: hidden;
-    height: 0;
-    padding-bottom: 37.4375%;
-    background-size: 100% 100%;
+        height: 0;
+        padding-bottom: 37.4375%;
+        background-size: 100% 100%;
     }
     .mp-product-info{
         position: relative;

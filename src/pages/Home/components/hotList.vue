@@ -72,7 +72,7 @@
 	.hot-box{
 	    height: 1.4rem;
 	    padding: .24rem;
-		background: #FFFFFF;
+		
 		border-bottom: 1px solid #ddd;
 	}
 	.hot-img{
