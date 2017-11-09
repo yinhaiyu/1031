@@ -9,8 +9,7 @@
 		</div>
 		<div class="home-header-right">
 			<a  title="城市选择" class="area-link">
-				<span class="city-now">北京
-					<i class="downarrow"></i>
+				<span class="city-now">北京<i class="downarrow"></i>
 				</span>
 			</a>
 		</div>
@@ -30,7 +29,7 @@ export default {
 	    background: #00bcd4;
 	    display:flex;
 	}
-	.home-header-left{
+	.home-header-left:before{
 		display: inline-block;
 	    width: .4rem;
 	    line-height: .88rem;
@@ -79,25 +78,19 @@ export default {
 	    
 	}
 	.city-now{
-		position:relative;
-		padding: 0 .22rem;
-		width:.6rem;
-		white-space: nowrap;
-		overflow: hidden;
-		text-overflow: ellipsis;
+
+		padding: 0  0.22rem;
 	}
 	.downarrow{
-		position:absolute;
-   		margin-left: .04rem;
-   		width: 0;
+		display:inline-block;
+	    width: 0;
 	    height: 0;
 	    border-left: 0.12rem solid transparent;
 	    border-right: 0.12rem solid transparent;
 	    border-top: 0.12rem solid #fff;
-	    left:0.7rem;
-	    top:0.1rem;
-
+	    margin-left: .04rem
 	}
-	
+
+
 
 </style>

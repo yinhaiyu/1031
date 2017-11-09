@@ -1,0 +1,305 @@
+{
+    "ret": true,
+    "data": {
+    	"swiperList": [{
+	        "id": 1,
+	        "imgUrl": "http://img1.qunarzz.com/p/tts2/1707/43/8250a273d1946502.jpg_110x110_532f0563.jpg",
+	        "img": "https://imgs.qunarzz.com/p/tts2/1707/43/8250a273d1946502.jpg_640x360_5df82a05.jpg",
+	        "link": "/detail",
+	        "title": "[北京出发]天安门＋故宫【赠送珍宝馆】＋八达岭长城＋鸟巢·水立方一日游",
+	        "price": "208"
+	    },{
+	        "id": 2,
+	        "imgUrl": "http://img1.qunarzz.com/p/tts1/1605/35/f267ae654a8511f7.jpg_110x110_33358754.jpg",
+	        "img": "https://imgs.qunarzz.com/p/tts1/1605/35/f267ae654a8511f7.jpg_640x360_c1fe0889.jpg",
+	        "link": "/detail",
+	        "title": "【休闲纯玩半日游】恭王府.含大戏楼+什刹海+黄包车半日游",
+	        "price": "90"
+	    },{
+	        "id": 3,
+	        "imgUrl": "http://img1.qunarzz.com/p/tts3/1708/e0/9072ffc0ef322302.jpg_110x110_52fb9421.jpg",
+	        "img": "https://imgs.qunarzz.com/p/tts3/1708/e0/9072ffc0ef322302.jpg_640x360_1f210389.jpg",
+	        "link": "/detail",
+	        "title": "【7-12点天天发】八达岭长城+往返直通车+门票，自由可选！",
+	        "price": "45"
+	    },{
+	        "id": 4,
+	        "imgUrl": "http://img1.qunarzz.com/p/tts0/1707/e3/d77d245a07ca4102.jpg_110x110_b3252ca4.jpg",
+	        "img": "https://imgs.qunarzz.com/p/tts0/1707/e3/d77d245a07ca4102.jpg_640x360_8dd8a922.jpg",
+	        "link": "/detail",
+	        "title": "【爆款】北京八达岭长城+十三陵定陵含地宫鸟巢纯玩一日游",
+	        "price": "118"
+	    },{
+	        "id": 5,
+	        "imgUrl": "http://img1.qunarzz.com/p/tts0/1511/7e/f82b6124019d78f7.jpg_110x110_f99e78f5.jpg",
+	        "img": "https://imgs.qunarzz.com/p/tts1/1611/34/ce613ef51240ad02.jpg_640x360_a7f433dc.jpg",
+	        "link": "/detail",
+	        "title": "【配备无线耳麦】故宫+珍宝馆深度纯玩半日游（含导游+门票）",
+	        "price": "75"
+	    },{
+	        "id": 6,
+	        "imgUrl": "http://img1.qunarzz.com/p/tts1/1611/34/ce613ef51240ad02.jpg_110x110_fb7e8f08.jpg",
+	        "img": "https://imgs.qunarzz.com/p/tts0/1511/7e/f82b6124019d78f7.jpg_640x360_96405675.jpg",
+	        "link": "/detail",
+	        "title": "【5大景点】广场+故宫+八达岭长城+鸟巢水立方，北京一日游",
+	        "price": "148"
+	    },{
+	        "id": 7,
+	        "imgUrl": "http://img1.qunarzz.com/p/tts4/1511/bb/0e9192fe4e7fcef7.jpg_110x110_058b32ed.jpg",
+	        "img": "https://imgs.qunarzz.com/p/tts4/1511/bb/0e9192fe4e7fcef7.jpg_640x360_02331522.jpg",
+	        "link": "/detail",
+	        "title": "【深度文化游】故宫+恭王府+颐和园+鸟巢水立方纯玩一日游",
+	        "price": "208"
+	    },{
+	        "id": 8,
+	        "imgUrl": "http://img1.qunarzz.com/p/tts1/1505/c9/4cdfc7d9932008.jpg_110x110_16d9c8ff.jpg",
+	        "img": "https://imgs.qunarzz.com/p/tts1/1505/c9/4cdfc7d9932008.jpg_640x360_b9de63d8.jpg",
+	        "link": "/detail",
+	        "title": "北京八达岭长城＋庆丰包子铺+恭王府+鸟巢.水立方纯玩一日游",
+	        "price": "198"
+	    },{
+	        "id": 9,
+	        "imgUrl": "http://img1.qunarzz.com/p/tts2/1707/50/4af2a43569af3e02.jpg_110x110_799a9094.jpg",
+	        "img": "https://imgs.qunarzz.com/p/tts2/1707/50/4af2a43569af3e02.jpg_640x360_96a5c79d.jpg",
+	        "link": "/detail",
+	        "title": "【北京经典市内】天安门广场+故宫+颐和园一日游，赠导游讲解",
+	        "price": "138"
+	    },{
+	        "id": 10,
+	        "imgUrl": "http://img1.qunarzz.com/p/tts6/1707/af/2361187e42829e02.jpg_110x110_c1663208.jpg",
+	        "img": "https://imgs.qunarzz.com/p/tts6/1707/af/2361187e42829e02.jpg_640x360_63cce2e0.jpg",
+	        "link": "/detail",
+	        "title": "【天天发】北京古北水镇门票日景夜景+往返直通车+导游服务",
+	        "price": "88"
+	    },{
+	        "id": 11,
+	        "imgUrl": "http://img1.qunarzz.com/p/tts8/1707/7a/c6e435c7b0fa5802.jpg_110x110_78e3913f.jpg",
+	        "img": "http://img1.qunarzz.com/p/tts2/1706/b9/68688c37bace6c02.jpg_640x360_a125a5ec.jpg",
+	        "link": "/detail",
+	        "title": "【赠杜莎门票】北京八达岭长城+十三陵定陵鸟巢，含地宫门票",
+	        "price": "158"
+	    },{
+	        "id": 12,
+	        "imgUrl": "http://img1.qunarzz.com/p/tts4/1706/85/0520350c6a81c602.jpg_110x110_92019f38.jpg",
+	        "img": "http://img1.qunarzz.com/p/tts2/1706/b9/68688c37bace6c02.jpg_640x360_a125a5ec.jpg",
+	        "link": "/detail",
+	        "title": "【欢度国庆-赠矿泉水】北京八达岭长城+颐和园+王府井1日游",
+	        "price": "108"
+	    },{
+	        "id": 13,
+	        "imgUrl": "http://img1.qunarzz.com/p/tts5/1709/35/9fb9750b4dcef302.jpg_110x110_462ad06d.jpg",
+	        "img": "https://imgs.qunarzz.com/p/tts8/1707/7a/c6e435c7b0fa5802.jpg_640x360_643243e7.jpg",
+	        "link": "/detail",
+	        "title": "【7-11点任选】八达岭长城门票+往返直通车*承诺不满意全退",
+	        "price": "73"
+	    },{
+	        "id": 14,
+	        "imgUrl": "http://img1.qunarzz.com/p/tts6/1710/91/1af6f0b15ae5de02.jpg_110x110_84356f1b.jpg",
+	        "img": "https://imgs.qunarzz.com/p/tts4/1706/85/0520350c6a81c602.jpg_640x360_eb859de8.jpg",
+	        "link": "/detail",
+	        "title": "【秋季限定】北京香山赏红叶＋碧云寺秋色＋颐和园皇家园林一日游",
+	        "price": "148"
+	    },{
+	        "id": 15,
+	        "imgUrl": "http://img1.qunarzz.com/p/tts6/1707/af/2361187e42829e02.jpg_110x110_c1663208.jpg",
+	        "img": "https://imgs.qunarzz.com/p/tts5/1709/35/9fb9750b4dcef302.jpg_640x360_00b6c9f6.jpg",
+	        "link": "/detail",
+	        "title": "【天天发】北京古北水镇门票日景夜景+往返直通车+导游服务",
+	        "price": "88"
+	    },{
+	        "id": 16,
+	        "imgUrl": "http://img1.qunarzz.com/p/tts7/1512/7b/e3e1aa0e6eed04f7.jpg_110x110_539f9b18.jpg",
+	        "img": "https://imgs.qunarzz.com/p/tts7/1512/7b/e3e1aa0e6eed04f7.jpg_640x360_062f1ec1.jpg",
+	        "link": "/detail",
+	        "title": "【9点发】北京海洋馆+北京动物园(含熊猫馆)一日游",
+	        "price": "160"
+	    },{
+	        "id": 17,
+	        "imgUrl": "http://img1.qunarzz.com/p/tts4/1703/29/3d3d29034018db02.jpg_110x110_329a2e52.jpg",
+	        "img": "https://imgs.qunarzz.com/p/tts9/1608/db/24b92d1a54006c02.png_640x360_56c9249c.png",
+	        "link": "/detail",
+	        "title": "【赠杜莎】北京故宫+八达岭长城+鸟巢水立方一日游，无线讲解器",
+	        "price": "188"
+	    },{
+	        "id": 18,
+	        "imgUrl": "http://img1.qunarzz.com/p/tts9/1706/d1/a154363039b41e02.jpg_110x110_a4ee3f04.jpg",
+	        "img": "https://imgs.qunarzz.com/p/tts4/1703/29/3d3d29034018db02.jpg_640x360_ca60cab9.jpg",
+	        "link": "/detail",
+	        "title": "【京城记】天安门广场+故宫+颐和园一日游，深度讲解帝都游",
+	        "price": "108"
+	    },{
+	        "id": 19,
+	        "imgUrl": "http://img1.qunarzz.com/p/tts4/1704/c3/dab13f6849256d02.jpg_110x110_9fbc363f.jpg",
+	        "img": "https://imgs.qunarzz.com/p/tts4/1704/c3/dab13f6849256d02.jpg_640x360_648d7219.jpg",
+	        "link": "/detail",
+	        "title": "【三环内上门接】北京慕田峪踏青一日游，纯玩无购物，人少风景好",
+	        "price": "128"
+	    },{
+	        "id": 20,
+	        "imgUrl": "http://img1.qunarzz.com/sight/p0/1611/8b/8b8ea5a23c77b987a3.img.png_110x110_c7962744.png",
+	        "img": "https://imgs.qunarzz.com/p/tts1/1709/9a/31141c0d54651602.jpg_640x360_d8542f65.jpg",
+	        "link": "/detail",
+	        "title": "【宿特色客栈】北京古北水镇纯玩2日游，赠温泉票，游长城小镇",
+	        "price": "300"
+	    },{
+	        "id": 21,
+	        "imgUrl": "http://img1.qunarzz.com/p/tts1/1611/34/ce613ef51240ad02.jpg_110x110_fb7e8f08.jpg",
+	        "img": "https://imgs.qunarzz.com/p/tts1/1709/9a/31141c0d54651602.jpg_640x360_d8542f65.jpg",
+	        "link": "/detail",
+	        "title": "双陵游*赠皮影*八达岭长城+定陵长陵（含地宫）鸟巢纯玩一日游",
+	        "price": "158"
+	    }],
+	    "navList": [{
+	    	"id": 1,
+	    	"title": "八达岭长城"
+	    },{
+	    	"id": 2,
+	    	"title": "古北水镇"
+	    },{
+	    	"id": 3,
+	    	"title": "故宫"
+	    },{
+	    	"id": 4,
+	    	"title": "司马台长城"
+	    },{
+	    	"id": 5,
+	    	"title": "鸟巢"
+	    },{
+	    	"id": 6,
+	    	"title": "颐和园"
+	    },{
+	    	"id": 7,
+	    	"title": "天安门广场"
+	    },{
+	    	"id": 8,
+	    	"title": "水立方"
+	    },{
+	    	"id": 9,
+	    	"title": "古北水镇天然温泉"
+	    },{
+	    	"id": 10,
+	    	"title": "恭王府"
+	    },{
+	    	"id": 11,
+	    	"title": "什刹海"
+	    },{
+	    	"id": 12,
+	    	"title": "定陵"
+	    },{
+	    	"id": 13,
+	    	"title": "古北口文化文物旅游区"
+	    },{
+	    	"id": 14,
+	    	"title": "天坛公园"
+	    },{
+	    	"id": 15,
+	    	"title": "明十三陵"
+	    },{
+	    	"id": 16,
+	    	"title": "慕田峪长城"
+	    },{
+	    	"id": 17,
+	    	"title": "北京动物园"
+	    },{
+	    	"id": 18,
+	    	"title": "北京杜莎夫人蜡像馆"
+	    },{
+	    	"id": 19,
+	    	"title": "八达岭长城缆车"
+	    },{
+	    	"id": 20,
+	    	"title": "北京海洋馆"
+	    },{
+	    	"id": 21,
+	    	"title": "恭王府大戏楼"
+	    },{
+	    	"id": 22,
+	    	"title": "泰山皮影戏"
+	    },{
+	    	"id": 23,
+	    	"title": "京东石林峡"
+	    },{
+	    	"id": 24,
+	    	"title": "前门大街"
+	    },{
+	    	"id": 25,
+	    	"title": "圆明园"
+	    },{
+	    	"id": 26,
+	    	"title": "坡峰岭"
+	    },{
+	    	"id": 27,
+	    	"title": "天安门城楼"
+	    },{
+	    	"id": 28,
+	    	"title": "奥林匹克公园"
+	    },{
+	    	"id": 29,
+	    	"title": "张裕爱斐堡"
+	    },{
+	    	"id": 30,
+	    	"title": "毛主席纪念堂"
+	    },{
+	    	"id": 31,
+	    	"title": "中国科学技术官"
+	    },{
+	    	"id": 32,
+	    	"title": "八达岭野生动物园"
+	    },{
+	    	"id": 33,
+	    	"title": "北京大学"
+	    },{
+	    	"id": 34,
+	    	"title": "北海公园"
+	    },{
+	    	"id": 35,
+	    	"title": "南山滑雪场"
+	    },{
+	    	"id": 36,
+	    	"title": "古北之光温泉"
+	    },{
+	    	"id": 37,
+	    	"title": "唐山湾月坨岛温泉"
+	    },{
+	    	"id": 38,
+	    	"title": "天津之眼摩天轮"
+	    },{
+	    	"id": 39,
+	    	"title": "天津古文化街"
+	    },{
+	    	"id": 40,
+	    	"title": "天漠"
+	    },{
+	    	"id": 41,
+	    	"title": "月坨岛（月岛）"
+	    },{
+	    	"id": 42,
+	    	"title": "段家大院精品温泉酒店"
+	    },{
+	    	"id": 43,
+	    	"title": "海河外滩公园"
+	    },{
+	    	"id": 44,
+	    	"title": "清华大学"
+	    },{
+	    	"id": 45,
+	    	"title": "烟袋斜街"
+	    },{
+	    	"id": 46,
+	    	"title": "金海湖风景区"
+	    },{
+	    	"id": 47,
+	    	"title": "香山公园"
+	    },{
+	    	"id": 48,
+	    	"title": "万科石京龙滑雪场"
+	    },{
+	    	"id": 49,
+	    	"title": "云佛山度假村"
+	    },{
+	    	"id": 50,
+	    	"title": "京东大峡谷"
+	    }]
+    }
+    
+}
