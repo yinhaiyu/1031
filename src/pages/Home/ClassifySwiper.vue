@@ -3,6 +3,7 @@
     <!-- slides -->
     <swiper-slide>
         <div class="classitySwiper-item">
+        	<router-link to="/swiperList">
           	<div class="classitySwiper-category-item" v-for="item in items" v-if="item.id <= 8">
           		<a href="" title="全部">
           			<div class="classitySwiper-category-img-container">
@@ -11,6 +12,7 @@
           			<div class="classitySwiper-category-keywords">{{item.keyword}}</div>
           		</a>
           	</div>
+          </router-link>
         </div>
     </swiper-slide>
     <swiper-slide>
