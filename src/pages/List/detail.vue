@@ -2,7 +2,7 @@
 	<div>
 		<div class="mp-main" id="mp-main">
 			<div class="mp-imgavatar">
-				<img class="mp-imgavatar-img" :src='Detail[id-1].img' alt=""/>
+				<img class="mp-imgavatar-img" :src='url' alt=""/>
 				<div class="mp-imgavatar-mask"></div>
 				<div class="mp-imgavatar-infocon">
 					<span class="mp-imgavatar-left">出发地:北京</span>
@@ -10,18 +10,18 @@
 				</div>
 			</div>
 			<div class="mp-header-back">
-				<router-link to="/swiperList">
+				<router-link to="/listHome">
 					<span class="mp-headerback-icon iconfont icon-back"></span>
 				</router-link>
 			</div>			
 		
 		<div class="mp-prdcard-con">
 			<h3 class="mp-prdcard-name">
-				{{Detail[id-1].title}}
+				{{title}}
 			</h3>
 			<div class="mp-prdcard-pricecon">
 				<em class="mp-prdcard-priceicon">&yen;</em>
-				<span class="mp-prdcard-pricetext">{{Detail[id-1].price}}</span>
+				<span class="mp-prdcard-pricetext">{{price}}</span>
 				<span class="mp-prdcard-gray">起</span>
 				<span class="mp-bookingahead-text">可订11月10日</span>
 				<span class="mp-prdcard-supplier">已售:878</span>
@@ -97,13 +97,16 @@ import axios from 'axios';
 		data() {
 			return {
 				Detail: [],
-				id: ""
+				id: "",
+				url: "",
+				title: "",
+				price: ""
 			}
 		},
 		mounted() {
 			this.handleGetData()
 			
-			this.id = this.$route.query.name
+			this.id = parseInt(this.$route.query.name)-1
 		},
 		methods: {
 			handleGetData() {
@@ -115,6 +118,9 @@ import axios from 'axios';
 				const res = response.data;
 				const data = res.data;
 				this.Detail = data.swiperList;
+				this.url = this.Detail[this.id].img;
+				this.title = this.Detail[this.id].title;
+				this.price = this.Detail[this.id].price;
 			},
 			handleGetDateError(err) {
 				console.log('err');

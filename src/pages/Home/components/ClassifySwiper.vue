@@ -6,7 +6,7 @@
 	      	<swiper-slide>
 	       		<div class="classitySwiper-item">
 	          		<div class="classitySwiper-category-item" v-for="item in items" v-if="item.id <= 8">
-	          			<router-link to="/swiperList">
+	          			<router-link to="/listHome">
 	          			<a href="" title="全部">
 	          				<div class="classitySwiper-category-img-container">
 	          					<img :src="item.img" alt="全部" >

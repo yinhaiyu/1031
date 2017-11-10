@@ -2,29 +2,19 @@
     <div>
         <div id="weekend-trip">
             <h2 class="mp-modtitle">周末去哪儿</h2>
-            <div id="wrapper">
-            	<div id="scroller">
-            		<div class="mp-product-item" v-for="weekend in weekends" key="weekend.id">
-		                <div class="product-imgcontainer image-ready"><img :src="weekend.img"/></div>
-		                <div class="mp-product-info">
-		                    <p class="product-name">{{weekend.name}}</p>
-		                    <p class="product-desc">{{weekend.desc}}</p>
-		                </div>
-		            </div>
-            	</div>
-            </div>
-            
+        		<div class="mp-product-item" v-for="weekend in weekends" key="weekend.id">
+	                <div class="product-imgcontainer image-ready"><img :src="weekend.img"/></div>
+	                <div class="mp-product-info">
+	                    <p class="product-name">{{weekend.name}}</p>
+	                    <p class="product-desc">{{weekend.desc}}</p>
+	                </div>
+	            </div>           
         </div>
     </div>
 </template>
 
 <script>
     export default {
-    	mounted() {
-			
-			var myScroll = new IScroll('#wrapper', { mouseWheel: true });
-			
-		},
         data(){
             return{
                 weekends:[{
@@ -60,15 +50,6 @@
 
 
 <style scoped>
-	
-	#wrapper {
-		position: absolute;
-		z-index: 6;
-		width: 100%;
-		height: 9rem;
-		overflow: hidden;
-	}
-	
 	.mp-modtitle{
         height: .8rem;
         padding-left: .26rem;

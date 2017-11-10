@@ -53,7 +53,7 @@
 					</div>
 					<div class="mp-list-priceinfo">
 						<span class="mp-list-qunarprice">
-							￥
+							&yen;
 							<em>{{item.price}}</em>
 						</span>
 						<span class="mp-list-priceflag">起</span>
@@ -140,9 +140,9 @@ import axios from 'axios';
 		width: 4700px;
 		height: .8rem;
 	}
-	.mp-tagfilter-list {				
+	.mp-tagfilter-list {	
+		position: relative;			
 	    height: .8rem;
-	    margin-right: .8rem;
 	    max-height: 6rem;
 	    background: #e5e7e8;
 	}	
@@ -150,7 +150,7 @@ import axios from 'axios';
 	
 	.navbox{
 		position: absolute;
-		top: 0;
+		top: .88rem;
 		left: 0;
 		z-index: 1;
 		width: 100%;
