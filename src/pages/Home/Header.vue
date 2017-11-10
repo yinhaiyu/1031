@@ -1,7 +1,6 @@
 <template>
 	<header class="home-header">
 		<a class="home-header-left iconfont icon-back"></a>
-		<a class="home-header-left iconfont icon-back " href="#"></a>
 		<div class="home-header-title">
 			<a title="北京" class="title-link">
 				<i class="search-pic iconfont icon-search"></i>

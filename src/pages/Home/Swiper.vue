@@ -11,7 +11,8 @@
 
 <script>
   export default {
-    data() {
+    data() 
+    {
       return { 
         swiperOption: {
           autoplay: 3000,
