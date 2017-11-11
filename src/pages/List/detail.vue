@@ -8,12 +8,13 @@
 					<span class="mp-imgavatar-left">出发地:北京</span>
 					<span class="mp-imgavatar-right">北京旭冉之旅</span>
 				</div>
+				<div class="mp-header-back">
+					<router-link to="/listHome">
+						<span class="mp-headerback-icon iconfont icon-back"></span>
+					</router-link>
+				</div>
 			</div>
-			<div class="mp-header-back">
-				<router-link to="/listHome">
-					<span class="mp-headerback-icon iconfont icon-back"></span>
-				</router-link>
-			</div>			
+						
 		
 		<div class="mp-prdcard-con">
 			<h3 class="mp-prdcard-name">
@@ -86,8 +87,66 @@
 				</div>
 			</div>
 		</div>
-		
 		</div>
+
+		<div class="mp-prddetail-group">
+			<div class="mp-card-group">
+				<div class="mp-routesum-outter">
+					<div class="mp-routesum-inner">
+						<div class="mp-routesum-item">
+							<div class="mp-routesum-title">
+								<span class="mp-oneday-iconfont mp-routesum-icon">
+									<em class="iconfont icon-gongjiaoche"></em>
+								</span>
+								<span>交通</span>
+							</div>
+							<div class="mp-routesum-content">交通往返</div>
+						</div>
+						<div class="mp-routesum-item">
+							<div class="mp-routesum-title">
+								<span class="mp-oneday-iconfont mp-routesum-icon">
+									<em class="iconfont icon-daocha"></em>
+								</span>
+								<span>用餐</span>
+							</div>
+							<div class="mp-routesum-content">包含餐具</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="mp-summary-head">
+				<h3 class="mp-summary-title">行程亮点</h3>
+			</div>
+
+			<div class="mp-card-content">
+				<p class="mp-card-desc">					
+                ★登八达岭长城，逛故宫，一天饱览两大“双遗”景点<br>
+				★品尝京城老字号庆丰包子；，坐拥北京绚烂的穹顶<br>
+				★专业导游陪同讲解，无任何强制购物和隐性消费
+				</p>
+			</div>
+
+			<h3 class="mp-route-headtext">行程安排</h3>
+
+		</div>
+
+		<div class="mp-fixbooking-con mpg-flexbox">
+			<div class="mp-fixbooking-qchat mp-border-topleft">
+				<div class="mpg-iconfont mp-qchat-icon">
+					<em class="iconfont icon-zixun"></em>
+				</div>
+				<div class="mp-qchat-text">咨询</div>
+			</div>
+			<router-link class="mp-fixbooking-btn mpg-flexbox-item" to="/">
+				<div class="mp-fixbooking-btn mpg-flexbox-item">
+					<span>
+						立即预定
+					</span>
+				</div>
+			</router-link>
+		</div>
+
 	</div>
 </template>
 
@@ -105,7 +164,6 @@ import axios from 'axios';
 		},
 		mounted() {
 			this.handleGetData()
-			
 			this.id = parseInt(this.$route.query.name)-1
 		},
 		methods: {
@@ -351,7 +409,7 @@ import axios from 'axios';
 	.mp-tab-item {
 	    display: block;
 	    height: .4rem;
-	    padding: .2rem 0;
+	    padding: .2rem;
 	    color: #616161;
 	    font-size: .28rem;
 	    line-height: .4rem;
@@ -364,8 +422,104 @@ import axios from 'axios';
 	    border-bottom: .04rem solid #00afc7;
 	    color: #00afc7;
 	}
-	
+	.mp-prddetail-group {
+		margin-top: .2rem;
+		padding: .01rem;
+		background-color: #fff;
+	}
+	.mp-card-group {
+		margin-top: .2rem;
+		background-color: #fff;
+		padding: 0 .2rem;
+	}
+	.mp-routesum-outter {
+		padding: .24rem;
+	}
+	.mp-routesum-inner {
+		background-color: #f5f5f5;
+		border-radius: .1rem;
+		padding: .2rem;
+	}
+	.mp-routesum-item:nth-child(1) {		
+		overflow: hidden;
+		margin-bottom: .2rem;
+	}
+	.mp-routesum-title {		
+		position: absolute;
+		width: 1.2rem;
+		color: #212121;
+	}
+	.mp-routesum-icon {
+		color: #919191;
+		margin-right: .1rem;
+	}
+	.mp-routesum-content {
+		padding-left: 1.2rem;
+		line-height: .36rem;
+		color: #616161;
+	}
+	.mp-summary-head {
+		margin-top: .1rem;
+	}
+	.mp-summary-title {
+		color: #616161;
+		font-size: .4rem;
+		padding-left: .2rem;
+	}
+	.mp-card-content {
+		padding: .24rem .3rem;
+		border-bottom: 1px dashed #dadada;
+	}
+	.mp-card-desc {
+		color: #616161;
+		font-size: .28rem;
+		line-height: .44rem;
+		max-height: 1.32rem;
+		overflow: hidden;
+	}
+	.mp-route-headtext {
+		color: #616161;
+		font-size: .4rem;
+		margin: .3rem 0 0 .2rem;
+	}
+	.mp-fixbooking-con {
+		position: fixed;
+		z-index: 82;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		height: .98rem;
+		line-height: .98rem;
+	}
+	.mp-fixbooking-qchat {
+		float: left;
+		padding: .16rem 0 .06rem;
+		width: 1.02rem;
+		background: #fff;
+		color: #616161;
+		text-align: center;
+	}
+	.mp-qchat-icon {
+		position: relative;
+		background: #FFFFFF;
+		top: -.02rem;
+		height: .4rem;
+		font-size: .4rem;
+		line-height: .4rem;
+	}
+	.mp-qchat-text {
+		height: .28rem;
+		font-size: .2rem;
+		line-height: .28rem;
+	}
+	.mp-fixbooking-btn {
+		overflow: hidden;
+		height: .98rem;
+		width: 100%;
+		background: #ff9800;
+		color: #fff;
+		font-size: .4rem;
+		text-align: center;
+	}
 
-	
-	
 </style>

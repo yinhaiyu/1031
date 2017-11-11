@@ -92,7 +92,6 @@ import axios from 'axios';
 			var myScroll = new IScroll('#wrapper', { eventPassthrough: true, scrollX: true, scrollY: false, preventDefault: false });
 			
 			this.swiperListDate();		
-		
 			
 		},
 		data() {
@@ -137,7 +136,7 @@ import axios from 'axios';
 		overflow: hidden;
 	}
 	#scroller{
-		width: 4700px;
+		width: 4830px;
 		height: .8rem;
 	}
 	.mp-tagfilter-list {	
@@ -150,7 +149,7 @@ import axios from 'axios';
 	
 	.navbox{
 		position: absolute;
-		top: .88rem;
+		top: 0;
 		left: 0;
 		z-index: 1;
 		width: 100%;
