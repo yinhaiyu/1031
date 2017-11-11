@@ -1,6 +1,6 @@
 <template>
 	<header class="home-header">
-		<a class="home-header-left iconfont icon-back " href="#"></a>
+		<a class="home-header-left iconfont icon-back"></a>
 		<div class="home-header-title">
 			<a title="北京" class="title-link">
 				<i class="search-pic iconfont icon-search"></i>
@@ -10,6 +10,7 @@
 		<div class="home-header-right">
 			<router-link  to="/cityChoices"  title="城市选择" class="area-link">
 				<span class="city-now">{{city}}<i class="downarrow"></i>
+
 				</span>
 			</router-link>
 		</div>
@@ -23,9 +24,8 @@ export default {
       city:(state) => (
         state.home.city
       )
-  }), 
+  })
 }
-</script>
 
 
 <style scoped>

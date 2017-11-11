@@ -1,1 +1,0 @@
-Onedaydetails.vue

@@ -6,12 +6,10 @@
 		<index-sales-activity />
 		<index-hotList />	
 		<index-gotoList />
-
 	</div>
 </template>
 
 <script>
-
 import header from './components/Header'
 import swiper from './components/Swiper'
 import classifySwiper from './components/ClassifySwiper'
@@ -47,6 +45,7 @@ export default {
       this.$store.commit("cityItem",this.$route.query.city)
     }
   })
+
 }
 </script>
 
