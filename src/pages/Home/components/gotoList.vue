@@ -2,13 +2,13 @@
     <div>
         <div id="weekend-trip">
             <h2 class="mp-modtitle">周末去哪儿</h2>
-            <div class="mp-product-item" v-for="weekend in weekends" key="weekend.id">
-                <div class="product-imgcontainer image-ready"><img :src="weekend.img"/></div>
-                <div class="mp-product-info">
-                    <p class="product-name">{{weekend.name}}</p>
-                    <p class="product-desc">{{weekend.desc}}</p>
-                </div>
-            </div>
+        		<div class="mp-product-item" v-for="weekend in weekends" key="weekend.id">
+	                <div class="product-imgcontainer image-ready"><img :src="weekend.img"/></div>
+	                <div class="mp-product-info">
+	                    <p class="product-name">{{weekend.name}}</p>
+	                    <p class="product-desc">{{weekend.desc}}</p>
+	                </div>
+	            </div>           
         </div>
     </div>
 </template>
