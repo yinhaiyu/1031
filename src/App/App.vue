@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" style="height:100%">
     <router-view/>
   </div>
 </template>
@@ -14,4 +14,5 @@ export default {
 	@import "./reset.css";
 	@import "../icon/iconfont.css";
 	@import "../../node_modules/swiper/dist/css/swiper.css"
+
 </style>

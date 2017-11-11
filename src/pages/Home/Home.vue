@@ -31,16 +31,20 @@ export default {
 	  "index-gotoList":gotoList,
   },
   computed:mapState({
-      swiperInfo:(state) => {
-        return state.home.swiperInfo
-      }
+      swiperInfo:(state) => (
+        state.home.swiperInfo
+      )
   }),  
   mounted(){
   	!this.swiperInfo.length && this.getHomeData()
+    this.getCityMessage()
   },
   methods:mapActions({
     getHomeData:(dispatch) => {
         dispatch(H_Get_DATA)
+    },
+    getCityMessage(){
+      this.$store.commit("cityItem",this.$route.query.city)
     }
   })
 }

@@ -8,17 +8,22 @@
 			</a>
 		</div>
 		<div class="home-header-right">
-			<a  title="城市选择" class="area-link">
-				<span class="city-now">北京<i class="downarrow"></i>
+			<router-link  to="/cityChoices"  title="城市选择" class="area-link">
+				<span class="city-now">{{city}}<i class="downarrow"></i>
 				</span>
-			</a>
+			</router-link>
 		</div>
 	</header>
 </template>
 
 <script>
+import {mapState} from "vuex"
 export default {
-  
+    computed:mapState({
+      city:(state) => (
+        state.home.city
+      )
+  }), 
 }
 </script>
 
@@ -60,13 +65,13 @@ export default {
 	    left: .2rem;
 	}
 	.search-msg{
-		display: inline-block;
-	    overflow: hidden;
+		display: inline-block;	    
 	    position: absolute;
 	    left: .3rem;
 	    top: 0;
 	    width: 3.6rem;
 	    white-space: nowrap;
+	    overflow: hidden;
 	    text-overflow: ellipsi;
 	    text-align: center;
 	}
@@ -80,6 +85,9 @@ export default {
 	.city-now{
 
 		padding: 0  0.22rem;
+		white-space: nowrap;
+	    overflow: hidden;
+	    text-overflow: ellipsi;
 	}
 	.downarrow{
 		display:inline-block;

@@ -13,9 +13,7 @@
 				</div>
 			</div>
 			<div class="hot-load">查看所有产品</div>
-		</div>
-		
-		
+		</div>	
 	</div>
 </template>
 
