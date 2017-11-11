@@ -138,7 +138,7 @@
 				</div>
 				<div class="mp-qchat-text">咨询</div>
 			</div>
-			<router-link class="mp-fixbooking-btn mpg-flexbox-item" to="/">
+			<router-link class="mp-fixbooking-btn mpg-flexbox-item" to="/Payment">
 				<div class="mp-fixbooking-btn mpg-flexbox-item">
 					<span>
 						立即预定

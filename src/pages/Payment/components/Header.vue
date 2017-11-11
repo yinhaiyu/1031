@@ -1,6 +1,6 @@
 <template>
 	<div class="payment-header">
-        <a  class="payment-header-left iconfont icon-back"></a>
+        <router-link to="/detail"  class="payment-header-left iconfont icon-back"></router-link>
         <h1 class="payment-header-title">订单填写</h1>             
         <a  class="payment-header-right">登录</a>
                 
