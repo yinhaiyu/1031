@@ -32,11 +32,6 @@ export default new Router({
       component: cityChoices
     },
     {
-      path: '/Search',
-      name: 'Search',
-      component: Search
-    },
-    {
       path: '/Payment',
       name: 'Payment',
       component: Payment

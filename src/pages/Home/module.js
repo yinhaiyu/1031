@@ -10,7 +10,7 @@ export default {
 			state.swiperInfo=payload
 		},
 		cityItem(state,number){
-			state.city=number
+			state.city=number.substring(0,4)
 		}
 	},
 	actions:{

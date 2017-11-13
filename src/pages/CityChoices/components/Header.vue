@@ -1,13 +1,18 @@
 <template>
 	<div class="cityChoices-header">
-		<a class="cityChoices-header-left iconfont icon-back"></a>
+		<router-link :to="{ name: 'Home', query: { city: city}}" class="cityChoices-header-left iconfont icon-back"></router-link>
 		<h1 class="cityChoices-header-title">城市选择</h1>
 	</div>
 </template>
 
 <script>
+	import {mapState} from "vuex"
 	export default {
-
+	    computed:mapState({
+	      city:(state) => (
+	        state.home.city
+	      )
+	  })
 	}
 </script>
 

@@ -26,7 +26,7 @@ export default {
       )
   })
 }
-
+</script>
 
 <style scoped>
 	.home-header{
