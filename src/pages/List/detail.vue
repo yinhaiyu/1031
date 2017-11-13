@@ -121,9 +121,9 @@
 
 			<div class="mp-card-content">
 				<p class="mp-card-desc">					
-                ★登八达岭长城，逛故宫，一天饱览两大“双遗”景点<br>
-				★品尝京城老字号庆丰包子；，坐拥北京绚烂的穹顶<br>
-				★专业导游陪同讲解，无任何强制购物和隐性消费
+					★登八达岭长城，逛故宫，一天饱览两大“双遗”景点<br>
+					★品尝京城老字号庆丰包子；，坐拥北京绚烂的穹顶<br>
+					★专业导游陪同讲解，无任何强制购物和隐性消费
 				</p>
 			</div>
 
@@ -521,5 +521,7 @@ import axios from 'axios';
 		font-size: .4rem;
 		text-align: center;
 	}
+
+
 
 </style>
